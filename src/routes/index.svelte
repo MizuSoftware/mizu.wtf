@@ -3,6 +3,10 @@
     import Wave from "../components/home/Wave.svelte";
 </script>
 
+<svelte:head>
+    <title>Mizu - Index</title>
+</svelte:head>
+
 <Wave>
     <div class="hero min-h-screen">
         <div class="hero-content lg:flex-row flex-col">

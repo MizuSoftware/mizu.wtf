@@ -2,6 +2,10 @@
     import {fly} from 'svelte/transition'
 </script>
 
+<svelte:head>
+    <title>Mizu - Pricing</title>
+</svelte:head>
+
 <div class="hero min-h-screen">
     <div class="hero-content justify-center text-center flex-col">
         <h1 class="text-3xl text-accent" transition:fly={{ y: -20, duration: 300 }}>Pricing</h1>

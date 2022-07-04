@@ -4,9 +4,11 @@
     async function fetchMembers() {
         return await (await fetch("https://api.github.com/orgs/MizuSoftware/public_members")).json()
     }
-
-    fetchMembers().then(console.log)
 </script>
+
+<svelte:head>
+    <title>Mizu - Collaborators</title>
+</svelte:head>
 
 <div class="hero min-h-screen">
     <div class="hero-content justify-center text-center flex-col">
