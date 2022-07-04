@@ -4,11 +4,11 @@
     async function fetchMembers() {
         return await (await fetch("https://api.github.com/orgs/MizuSoftware/public_members")).json()
     }
-</script>
 
-<svelte:head>
-    <title>Mizu - Collaborators</title>
-</svelte:head>
+    async function fetchUser(login: string) {
+        return await (await fetch("https://api.github.com/users/" + login)).json()
+    }
+</script>
 
 <div class="hero min-h-screen">
     <div class="hero-content justify-center text-center flex-col">
@@ -16,12 +16,17 @@
         <div class="flex gap-10">
             {#await fetchMembers() then members}
                 {#each members as member}
-                    <div class="avatar flex-col">
-                        <div class="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                            <img alt={member.login} src={member.avatar_url}/>
+                    {#await fetchUser(member.login) then user}
+                        <div class="avatar flex-col">
+                            <div class="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                                <img alt={user.name} src={user.avatar_url}/>
+                            </div>
+                            <div class="py-4 text-base-content w-32 flex-col">
+                                <p class="text-xl">{user.name}</p>
+                                <p class="text-base-content">{user.bio}</p>
+                            </div>
                         </div>
-                        <p class="py-4 text-base-content text-xl">{member.login}</p>
-                    </div>
+                    {/await}
                 {/each}
             {/await}
         </div>
