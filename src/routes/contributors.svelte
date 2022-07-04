@@ -16,7 +16,7 @@
 
 <div class="hero min-h-screen">
     <div class="hero-content justify-center text-center flex-col">
-        <h1 class="text-3xl text-accent my-10" transition:fly={{ y: -20, duration: 300 }}>Team</h1>
+        <h1 class="text-3xl text-accent my-10" transition:fly={{ y: -20, duration: 300 }}>Contributors</h1>
         <div class="flex gap-10">
             {#await fetchMembers() then members}
                 {#each members as member}

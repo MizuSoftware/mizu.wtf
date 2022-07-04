@@ -6,7 +6,7 @@
         <ul class="menu menu-horizontal p-0">
             <li><a href="/">Home</a></li>
             <li><a href="/pricing">Pricing</a></li>
-            <li><a href="/team">Contributors</a></li>
+            <li><a href="/contributors">Contributors</a></li>
         </ul>
     </div>
 </div>
