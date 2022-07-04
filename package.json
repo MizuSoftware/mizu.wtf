@@ -35,6 +35,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-static": "1.0.0-next.34",
 		"daisyui": "^2.17.0",
 		"octokit": "^1.8.1"
 	}
