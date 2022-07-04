@@ -13,7 +13,7 @@
             payment
             system, when buying the client for the first time
             you have to pay a deposit of 49.99€ to get access to the JAR file.</p>
-        <div class="flex gap-10">
+        <div class="flex gap-10 flex-col md:flex-row">
             <div class="indicator" transition:fly={{ y: -10, duration: 300, delay: 400 }}>
                 <span class="indicator-item badge badge-primary">new</span>
                 <div class="card w-64 bg-base-200 shadow-xl">
@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </div>
-            <div class="divider divider-horizontal">OR</div>
+            <div class="divider divider-vertical md:divider-horizontal">OR</div>
             <div class="indicator" transition:fly={{ y: -10, duration: 300, delay: 400 }}>
                 <span class="indicator-item badge badge-primary">-20%</span>
                 <div class="card w-64 bg-base-200 shadow-xl">
