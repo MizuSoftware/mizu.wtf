@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-    <title>Mizu - Index</title>
+    <title>Mizu - Home</title>
 </svelte:head>
 
 <Wave>
@@ -33,7 +33,7 @@
             </h1>
             <p class="mt-10 mr-10 text-xl">
                 Whether you simply want your friends to not be targeted no matter which account they play on or if
-                you want to
+                you want to share coordinates/join the server they are currently playing on.
             </p>
         </div>
 
