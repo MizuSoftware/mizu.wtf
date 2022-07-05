@@ -11,8 +11,8 @@
         <h1 class="text-3xl text-accent" transition:fly={{ y: -20, duration: 300 }}>Pricing</h1>
         <p class="w-2/3 my-4" transition:fly={{ y: -20, duration: 300, delay: 100 }}>The client relies on a monthly
             payment
-            system, when buying the client for the first time
-            you have to pay a deposit of 49.99€ to get access to the JAR file.</p>
+            system. There is a one-time fee of <b>49.99€</b> 
+            in order to access to JAR file.</p>
         <div class="flex gap-10 flex-col md:flex-row">
             <div class="indicator" transition:fly={{ y: -10, duration: 300, delay: 400 }}>
                 <span class="indicator-item badge badge-primary">new</span>
