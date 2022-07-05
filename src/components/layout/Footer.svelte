@@ -29,7 +29,7 @@
         <p class="font-bold">
             Mizu Software Ltd. <br>Minecraft utility mods at their peak.
         </p>
-        <p>Copyright © 2022 - All right reserved</p>
+        <p>Copyright © 2022 - All rights reserved</p>
     </div>
     <div>
         <div class="grid grid-flow-col gap-4">
