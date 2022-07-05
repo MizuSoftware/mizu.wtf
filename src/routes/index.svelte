@@ -11,7 +11,7 @@
     <div class="hero min-h-screen">
         <div class="hero-content lg:flex-row flex-col">
             <img alt="Mizu's screenshot"
-                 class="max-w-md md:max-w-lg lg:max-w-3xl rounded-lg shadow-2xl"
+                 class="max-w-sm md:max-w-md lg:max-w-lg xl:max-w-3xl rounded-lg shadow-2xl"
                  src="https://www.mcmiddleearth.com/community/attachments/6znif0x-jpg.1940/"
                  transition:fly={{ y: -50, duration: 500 }}/>
             <h1 class="lg:ml-10 text-base-100 text-3xl font-bold lg:text-left text-center"
@@ -38,7 +38,7 @@
         </div>
 
         <img alt="Mizu's screenshot"
-             class="max-w-md md:max-w-lg lg:max-w-3xl  rounded-lg shadow-2xl"
+             class="max-w-sm md:max-w-md lg:max-w-lg xl:max-w-3xl rounded-lg shadow-2xl"
              src="https://i.pinimg.com/originals/20/b8/dd/20b8dda6ae7a05a9eb80ce271f9dc9d5.jpg"
              transition:fly={{ y: -50, duration: 500 }}/>
     </div>
