@@ -1,14 +1,15 @@
 <script>
-    import '../app.css';
-    import Navbar from "../components/layout/Navbar.svelte";
-    import {OnMount} from "fractils";
-    import Footer from "../components/layout/Footer.svelte";
+	import { OnMount } from 'fractils';
+
+	import '../app.css';
+	import Navbar from '../components/layout/Navbar.svelte';
+	import Footer from '../components/layout/Footer.svelte';
 </script>
 
 <OnMount>
-    <Navbar/>
+	<Navbar />
 
-    <slot/>
+	<slot />
 
-    <Footer/>
+	<Footer />
 </OnMount>
